@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm"},
         glue = {"n4\\framework\\steps"},
-        features = {"C:\\Users\\work\\Documents\\IBS\\Обучение\\07. Selenium\\SelProjCucumber\\src\\test\\resources"},
+        features = {"src\\test\\resources"},
         tags = {"@all"}
 )
 
